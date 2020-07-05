@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Hello from Flask</title>
+
+{% for task in tasks %}
+{{ task }}
+{% endfor %}
+
+<form method="POST" action="/add">
+  <input name="newtask" />
+  <button type="submit">add task</button>
+</form>

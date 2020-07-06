@@ -1,6 +1,4 @@
 from todo import Mind
-
-
 def main():
 
     try:
